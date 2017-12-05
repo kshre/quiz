@@ -1,0 +1,48 @@
+html
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    vertical-align: baseline;
+   height: 1100px;
+   background: #159957;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent;
+} 
+
+.container
+{
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    outline: 0;
+}
+.card
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+h3{
+    border-radius: 50px;    
+    color:black;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.card-block
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background-color: transparent;
+}

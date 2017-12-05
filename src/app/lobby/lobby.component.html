@@ -1,0 +1,21 @@
+<html>
+    <h1 id="start">The game will start any moment now...</h1>
+    <div class="container" id = "anything">
+    <div *ngIf="first; else loading">      
+     <h3>{{first}}</h3>
+        </div>
+  <div *ngIf="second; else loading">
+        <h3>{{second}}</h3>
+    </div>
+    <ng-template #loading><h1>Loading...</h1></ng-template>
+    <div *ngIf="third">
+          <h3>{{third}}</h3>
+      </div>
+      <div *ngIf="fourth">
+            <h3>{{fourth}}</h3>
+        </div>
+        <div *ngIf="fifth">
+              <h3>{{fifth}}</h3>
+          </div>
+        </div>
+</html>

@@ -1,0 +1,24 @@
+<countdown></countdown>
+<div class="card">
+    <div class="card-block">
+
+      <div class="container" id="Question" align="center">
+        <h3 [innerHTML]="q.question"></h3>
+      </div> 
+      <p [innerHTML]="q.category"></p>
+      <form>
+        <fieldset>
+          <div class="container11" style="text-align: center;">
+          <div class="" *ngFor="let radio of q.incorrect_answers ; let i = index">
+           <button class = "btn-change1" id="radioStacked-{{i}}"  (click)="sendAnswer(radio, $event)" type="radio">
+           <span class="custom-control-description" [innerHTML]="radio" ></span>
+          </button>
+          </div>
+        </div>
+        </fieldset>
+ 
+      </form>
+
+    </div>
+
+  </div>

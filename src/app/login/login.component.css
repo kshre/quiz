@@ -1,0 +1,83 @@
+html, body
+{
+    min-width: 100vh;
+    min-height: 100vh;
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+ol{
+    color: White;
+}
+.container{
+    color: rgb(177, 173, 173);
+    align-items: center;
+}
+h3{
+    color:  rgb(177, 173, 173);
+    text-align: center;
+}
+h4{
+    color: rgb(177, 173, 173);
+    font-size: 5vh;
+    text-align-last: center;
+    margin-bottom: 40px;
+    height: 60vh;
+    background-image: url("quiz-slide04.jpg");
+}
+
+#Us
+{
+    margin-bottom: 40px;    
+}
+#contactUs
+{
+    width: 80%;
+    height: 80%;
+    box-shadow: 0px 2px green;    
+
+}
+.picture
+{
+    height: 400px;
+    width: 400px;
+    background-image: url('./quiz-slide04.jpg');
+}
+#googleBtn{
+    background-image: url('./googleLogin.jpg');
+    background-repeat: no-repeat;    
+    height: 73px;
+    width: 502px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#fbBtn{
+    background-image: url('./fb.jpg');
+    background-repeat: no-repeat;
+    height: 73px;
+    width: 502px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#btnHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#userWelcome{
+    color: red;
+}
+#userName{
+    color: red;
+}
+#userId{
+    color: red;
+}
+#joinLobby{
+    background-color: transparent;
+    color: red;
+    border-color: royalblue;
+    margin: 10px;
+    font-size: 4vh;
+}

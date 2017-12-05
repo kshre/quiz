@@ -1,0 +1,35 @@
+<html>
+<body>
+    <div class='container' id='picture'>
+    <h4>Quiz Masters</h4>    
+    </div>
+
+   
+    <h3> YOU GOTTA LOGIN TO PLAY</h3>
+    <div class="container" id="btnHolder" >
+            <button class="btn-primary" id="googleBtn" (click)="signInWithGoogle()"><span class="fa fa-google"></span></button>
+            <button class="btn-primary" id= "fbBtn" (click)="signInWithFB()"><span class="fa fa-facebook"></span></button>
+          </div>
+
+          <div *ngIf="user; then sendData()" class="container" style="text-align: center;">
+              <h3 id="userWelcome" >Welcome, {{ user.name }} </h3>
+                <h3 id="userId">{{ user.email }}</h3>
+                <button class = "btn-primary" id="joinLobby" (click) = "goToLobby()" >Join Player Lobby</button>
+                </div>
+
+
+          <div class='container' id='Us'>
+                <h3>Who are we?</h3>
+                <h3> We are a group of people who have a strong passion for coding </h3>
+            </div>
+    <div class = 'container' id='contactUs'>
+        <h3>
+            <ol> Where can you find us:</ol>
+            <ol>Chirag Bhardwaj: chirag_bhardwaj@student.uml.edu  </ol>
+            <ol>Allison Rossetto: allison_rossetto@student.uml.edu</ol>
+            <ol>Priyanka Murthy: priyanka_murthy@student.uml.edu</ol>
+            <ol>Saurabh Kulshreshtha: saurabh_kulshreshtha@student.uml.edu</ol>
+        </h3>
+    </div>
+</body>
+</html>
